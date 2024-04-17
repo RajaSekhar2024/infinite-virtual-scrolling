@@ -23,10 +23,10 @@ const Table = ({ data, columnCount, rowCount, columnWidth, rowHeight }) => {
         ))}
       </div>
       <List
-        height={400} // Height of the visible portion
-        itemCount={rowCount} // Total number of rows
-        itemSize={rowHeight} // Height of each row
-        width="100%" // Width of the list
+        height={400}
+        itemCount={rowCount}
+        itemSize={rowHeight}
+        width="100%"
       >
         {renderItem}
       </List>
